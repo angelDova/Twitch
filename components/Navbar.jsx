@@ -27,15 +27,13 @@ const Navbar = () => {
       {/* Left Side */}
       <div className="flex grow items-center justify-start">
         <Link legacyBehavior href="/">
-          <a className="flex">
-            <Image
-              src={Logo}
-              alt="/"
-              width="36"
-              height="36"
-              className="cursor-pointer z-10"
-            />
-          </a>
+          <Image
+            src={Logo}
+            alt="/"
+            width="36"
+            height="36"
+            className="cursor-pointer z-10"
+          />
         </Link>
         <p className="p-4 font-bold">Browse</p>
         <div className="p-4">
