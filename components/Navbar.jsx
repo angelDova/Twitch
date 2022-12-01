@@ -58,7 +58,7 @@ const Navbar = () => {
                 <div className="py-1 ">
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="#"
                         className={classNames(
                           active
@@ -68,12 +68,12 @@ const Navbar = () => {
                         )}
                       >
                         Settings
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="#"
                         className={classNames(
                           active
@@ -83,12 +83,12 @@ const Navbar = () => {
                         )}
                       >
                         Support
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="#"
                         className={classNames(
                           active
@@ -98,7 +98,7 @@ const Navbar = () => {
                         )}
                       >
                         License
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>
@@ -159,7 +159,7 @@ const Navbar = () => {
                   <div className="py-1 ">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
+                        <Link
                           href="/account"
                           className={classNames(
                             active
@@ -169,7 +169,7 @@ const Navbar = () => {
                           )}
                         >
                           Settings
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
 
@@ -226,7 +226,7 @@ const Navbar = () => {
             <Link href="/#live">Live Channels</Link>
           </li>
           <li onClick={() => setNav(false)} className="p-4 text-3xl font-bold">
-            <Link href="/categories">Top Categories</Link>
+            <Link href="/#categories">Top Categories</Link>
           </li>
           <li onClick={() => setNav(false)} className="p-4 text-3xl font-bold">
             <Link href="/account">Account</Link>
